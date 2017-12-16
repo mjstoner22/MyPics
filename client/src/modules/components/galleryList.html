@@ -1,0 +1,61 @@
+	<template>
+
+			<center>
+					<h2 style="font-family:Impact, Charcoal, sans-serif">Welcome to ${user.firstName}'s Galleries!</h2> 
+				</center>
+    <div class="card topMargin">
+        <div class="card-body">
+            <div class="row">
+                <span class="col">
+
+    <!--                <span class="rightMargin pull-right"><i click.trigger="logout()" 
+	class="fa fa-sign-out fa-lg" aria-hidden="true"></i><b>Logout</b></span> 
+	<br></br>
+                    <span class=" rightMargin pull-right"><i click.trigger="createGallery()" 
+    class="fa fa-plus fa-lg" aria-hidden="true"><b>Create Gallery</b></i></span>
+                </span>
+
+class="rightMargin  pull-right"><button type="button" class="btn btn-login"  click.trigger="createTodo()"
+-->
+
+</span>	
+
+<span class="col">
+<span class="rightMargin  pull-right"><button type="button" class="btn btn-login"  click.trigger="createGallery()">Create a Gallery</button>
+	<button type="button" class="btn btn-login"  click.trigger="logout()">Logout</button>
+</span> 
+</span>
+
+            </div>
+	<div show.bind="galleries.galleriesArray.length">
+		<table class="table">
+				<thead>
+					<tr>
+						<th>Gallery</th>
+						
+						 <th>Edit</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr repeat.for = "gallery of galleries.galleriesArray">
+						<th click.trigger="checkGallery(gallery)">${gallery.gallery}</th>
+
+						 <td>
+            				<i click.trigger="editGallery(gallery)" class="fa fa-pencil rightMargin" aria-hidden="true"></i>
+							<i click.trigger="deleteGallery(gallery)"class="fa fa-trash rightMargin" aria-hidden="true"></i>
+       					 </td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	<center>
+	<div show.bind="!galleries.galleriesArray.length">
+			<h2 style="font-family:Impact, Charcoal, sans-serif" >Looks like you currently do not have any gallaries...</h2>
+		</center>
+		</div>
+
+
+
+        </div>
+    </div>
+</template>

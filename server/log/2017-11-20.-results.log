@@ -1,0 +1,92 @@
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T16:08:45.130Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:10:55.295Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:11:12.724Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:11:50.450Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:12:15.526Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:12:20.238Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:12:20.959Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:12:21.236Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:19:38.371Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:20:03.114Z"}
+{"level":"verbose","message":"Get user login","timestamp":"2017-11-20T16:20:03.116Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T16:20:25.411Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:23:16.558Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:24:07.933Z"}
+{"level":"verbose","message":"Get user 5a106afffa262224c400841a","timestamp":"2017-11-20T17:24:07.937Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:24:17.933Z"}
+{"level":"verbose","message":"Get user 41a","timestamp":"2017-11-20T17:24:17.935Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:24:23.616Z"}
+{"level":"verbose","message":"Get user 41a","timestamp":"2017-11-20T17:24:23.618Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:24:28.090Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T17:24:28.091Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:26:28.101Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T17:26:28.102Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:26:40.384Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:27:02.618Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:27:24.582Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:28:54.851Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:29:03.284Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:30:01.205Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:30:08.699Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:37:59.619Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:38:14.124Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:38:22.492Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:38:27.090Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:39:03.018Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:39:39.164Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:39:44.494Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:39:53.254Z"}
+{"level":"verbose","message":"Get user 5a12fec608b59a2bb46ec911","timestamp":"2017-11-20T17:39:53.257Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:39:54.521Z"}
+{"level":"verbose","message":"Get user 5a12fec608b59a2bb46ec911","timestamp":"2017-11-20T17:39:54.522Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:40:32.330Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:40:34.860Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:40:56.594Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:41:20.162Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:41:28.417Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:42:00.257Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:42:25.431Z"}
+{"level":"verbose","message":"Delete user 5a12fec608b59a2bb46ec911","timestamp":"2017-11-20T17:42:25.474Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:42:44.869Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T17:42:47.046Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:46:26.005Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:46:42.297Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T17:46:56.847Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T19:15:03.210Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:15:33.208Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T19:30:52.371Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:31:07.773Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:31:22.297Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:39:57.876Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:40:28.411Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:42:25.024Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T19:52:01.150Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:05:22.487Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:05:35.878Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:06:15.439Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:12:11.215Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:13:10.610Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T20:13:32.955Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T21:04:18.970Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T21:05:26.516Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T21:06:13.988Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:39:53.587Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:42:34.615Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:44:19.612Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:44:28.769Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:45:29.320Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:49:22.693Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:49:32.050Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:50:23.471Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:50:30.399Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:51:17.246Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:51:18.294Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:51:21.947Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:51:22.238Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:51:25.156Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:55:23.665Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:55:50.033Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:58:02.936Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:58:25.076Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T23:59:14.208Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T23:59:25.154Z"}

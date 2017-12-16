@@ -1,0 +1,49 @@
+<template>
+	<!--<div class="card topMargin">
+		<div class="card-body">
+			<span><i click.trigger="back()" class="fa fa-arrow-left fa-lg" 
+				aria-hidden="true"></i></span>
+		</div>
+	</div>	-->
+
+	<button type="button" class="btn btn-login" click.trigger="back()">BACK</button>
+	<br></br>
+
+	<form>
+		<!--
+		<div class="form-group topMargin">
+			  <label for="imageInput">Image *</label>
+			  <input value.bind="imageObj.file.fileName" type="text" class="form-control" 
+				id="imageInput" aria-describedby="imageHelp" 
+				placeholder="Enter Image">
+			  <small id="imageHelp" class="form-text text-muted">
+				A short name for the Image.</small>
+		</div>-->
+       
+    
+ <center>
+		<div class="row">
+			<div class="col-lg-3 col-lg-offset-5">
+				<label class="btn btn-secondary">
+						Browse Image <input type="file" 
+						style="display: none;" 
+						change.delegate="changeFiles()" files.bind="files">
+				</label>
+				<small id="fileHelp" class="form-text text-muted">
+						Upload Image.</small>
+			</div>	
+			<div class="col-8">
+				<ul>
+					<li repeat.for="file of filesToUpload" class="list-group-item">
+						${file.name}<span click.delegate="removeFile($index)" 
+						class="pull-right"><i class="fa fa-trash" aria-hidden="true">
+						</i></span></li>
+				</ul>
+			</div>
+		</div> 
+	</center>
+        <button click.trigger="saveImage()" class="btn btn-login">Save</button>
+
+
+    </form>
+</template>

@@ -1,0 +1,36 @@
+<template>
+        <style>
+                body {background-color: #ffccff}
+            </style>
+    <center>
+            <link href="../../resources/css/styles.css" rel="stylesheet" /> 
+            <div class="container">
+               <!-- <h1>Welcome to MyPics</h1>
+<p>Please sign in to access your MyPics Gallaries</p> 
+</center> 
+<div class="form-group col">
+    <div class="col-lg-3 col-lg-offset-5"> 
+
+<label for="email"></label>Email</label> 
+<input value.bind="email" type="email" class="form-control" id="email" placeholder="Email"></input>
+<label for="password">Password</label> 
+<input value.bind="password" type="password" class="form-control" id="password" placeholder="Password"></input>
+<br>
+<button type="button" class="btn btn-login" click.trigger="login()">Login</button>  
+<button type="button" class="btn btn-link" click.trigger="showRegister()">Register</button>
+<br>
+</br>
+<div id="errorMsg" class ="textcolor" innerhtml.bind="loginError"></div>     
+</div>
+</div>
+</div>    
+</div>
+
+-->
+
+  <compose show.bind="showLogin" view="./components/login.html"></compose>
+    <compose show.bind="!showLogin" view="./components/register.html"></compose>
+
+</template> 
+
+

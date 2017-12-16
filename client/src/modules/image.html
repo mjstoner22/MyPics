@@ -1,0 +1,10 @@
+<template>
+    <!--<title>${title}</title> -->
+    <style>
+            body {background-color: #ffccff}
+        </style>
+  <center> <h1 style="font-family:Impact, Charcoal, sans-serif">${message} </h1> </center>
+
+    <compose show.bind="showList" show.bind="!showForm" view="./components/imageList.html"></compose>
+    <compose show.bind="!showList" show.bind="showForm" view="./components/imageForm.html"></compose>   
+</template>

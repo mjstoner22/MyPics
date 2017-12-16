@@ -1,0 +1,62 @@
+	<template>
+        <!-- <div class="card topMargin">
+		<div class="card-body"> -->
+			
+			<button type="button" class="btn btn-login" click.trigger="backToList()">BACK</button>
+			<br></br>
+	
+    <div class="card topMargin">
+        <div class="card-body">
+            <div class="row">
+                <span class="col">
+
+	</span>	
+	
+	<span class="col">
+	<span class="rightMargin  pull-right"><button type="button" class="btn btn-login"  click.trigger="createImage()">Create Image</button>
+		<button type="button" class="btn btn-login"  click.trigger="logout()">Logout</button>
+	</span> 
+	</span>
+
+  <!--                  <span class="rightMargin pull-right"><i click.trigger="logout()" 
+    class="fa fa-sign-out fa-lg" aria-hidden="true"></i></span>
+                    <span class=" rightMargin pull-right"><i click.trigger="createImage()" 
+    class="fa fa-plus fa-lg" aria-hidden="true"></i></span>
+                </span> -->
+
+
+            </div>
+	<div show.bind="images.imagesArray.length">
+		<table class="table">
+				<thead>
+					<tr>
+						<th>Image</th>
+						 <th>Edit</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr repeat.for = "image of images.imagesArray">
+						<!--<th>${image.image} </th> This should be the Thumbnail
+						<td><a>${image.file.fileName}</a></td>-->
+						<td>  <a href="uploads/${image.galleryId}/${image.file.fileName}" 	
+							target="_blank"><img src="uploads/${image.galleryId}/${image.file.fileName}"  style="width:50px; height: 50px;"></a>
+						
+						</td>
+</a>
+
+
+						 <td>
+            				<i click.trigger="editImage(image)" class="fa fa-pencil rightMargin" aria-hidden="true"></i>
+							<i click.trigger="deleteImage(image)"class="fa fa-trash rightMargin" aria-hidden="true"></i>
+						 </td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	<div show.bind="!images.imagesArray.length">
+			<h2 style="font-family:Impact, Charcoal, sans-serif">Looks like you currently do not have any Images...</h2>
+	</div>
+
+        </div>
+    </div>
+</template>
